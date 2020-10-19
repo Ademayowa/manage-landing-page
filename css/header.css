@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  flex: 1;
+  /* padding: 20px; */
+  margin: 20px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar-collapse > ul > li {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.navbar-collapse a {
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: hsl(228, 39%, 23%);
+}
+
+.btn__started {
+  display: flex;
+}
+
+.btn__started .btn-primary {
+  background-color: hsl(12, 88%, 59%) !important;
+  border: none !important;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 25px;
+}

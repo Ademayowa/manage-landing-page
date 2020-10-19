@@ -1,0 +1,26 @@
+.simplify {
+  margin-top: 100px;
+  padding: 0 30px;
+  background-color: #f3613c;
+}
+
+.simplify__text {
+  padding: 100px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simplify__text > h4 {
+  font-size: 40px;
+  color: #ffff;
+}
+
+.simplify__button > a {
+  padding: 10px 30px;
+  color: #f3613c;
+  background-color: #fff;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+}

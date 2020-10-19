@@ -1,0 +1,29 @@
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+/* Position shape at the top right corner on the hero page */
+.bg__shape {
+  position: absolute;
+  top: -30%;
+  right: 0;
+  z-index: -1;
+}
+
+.bg__shape2 {
+  position: absolute;
+  left: 0px;
+  top: 1100px;
+  z-index: -100;
+  width: 12%;
+}
+
+.bg__shape3 {
+  position: absolute;
+  left: 0px;
+  top: 2100px;
+  color: transparent;
+
+  z-index: -100;
+}

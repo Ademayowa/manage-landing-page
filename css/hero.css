@@ -1,0 +1,27 @@
+.hero {
+  margin-top: 100px;
+  padding: 0 30px;
+}
+
+.hero__text h2 {
+  font-size: 50px;
+  color: hsl(228, 39%, 23%);
+}
+
+.hero__text > p {
+  padding-top: 30px;
+}
+
+.hero__text > .hero__started {
+  padding-top: 30px;
+}
+
+.hero__started > a {
+  background-color: hsl(12, 88%, 59%) !important;
+  border: none !important;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
